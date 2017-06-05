@@ -2,8 +2,8 @@ import { combineReducers } from 'redux'
 import scenarData from './data'
 
 const user = (state = {
-  email: 'jean-michel.mec-du-simu@students.isae-supaero.fr',
-  name: 'Jean-Michel Mec du Simu',
+  email: 'jean-michel.simu@students.isae-supaero.fr',
+  name: 'Jean-Michel Simu',
   pictureUrl: 'https://randomuser.me/api/portraits/men/1.jpg'
 }, action) => {
   return state

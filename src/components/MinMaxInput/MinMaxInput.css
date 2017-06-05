@@ -1,0 +1,15 @@
+.MinMaxInput {
+  margin-left: 30px;
+}
+
+.ScenarForm .MinMaxInput input,
+.ScenarForm .MinMaxInput input:focus,
+.ScenarForm .MinMaxInput input:active,
+.ScenarForm .MinMaxInput input:hover {
+  width: 60px;
+  margin-left: 0;
+}
+
+.MinMaxInput .separator {
+  margin: 0px 10px;
+}

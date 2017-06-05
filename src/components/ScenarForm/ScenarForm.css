@@ -1,22 +1,29 @@
 .ScenarForm {
   border: 1px solid #bbb;
-  padding: 10px;
-  position: relative;
+  padding: 15px;
 }
 
-.ScenarForm i.before-text {
+.ScenarForm i {
   position: absolute;
-  top: 12px;
-  left: 13px;
+  top: 2px;
+  left: 0;
   color: #bbb;
-  font-size: 24px;
   float: left
+}
+
+.ScenarForm .general-section,
+.ScenarForm .date-section,
+.ScenarForm .location-section,
+.ScenarForm .people-count-selection {
+  position: relative;
+  margin-bottom: 5px;
 }
 
 .ScenarForm input,
 .ScenarForm input:focus,
 .ScenarForm input:active,
-.ScenarForm input:hover {
+.ScenarForm input:hover,
+.ScenarForm textarea {
   color: #333;
   background: transparent;
   border: 0;
@@ -27,10 +34,27 @@
   box-shadow: none;
   width: 300px;
   margin-left: 30px;
+  resize: none;
 }
 
-.ScenarForm input[name="name"] {
+.ScenarForm input[name="name"], .ScenarForm .general-section i {
   font-size: 24px;
+}
+.ScenarForm textarea[name="description"] {
+  font-size: 14px;
+  font-style: italic;
+}
+.ScenarForm input[name="date[]"], .ScenarForm .date-section i {
+  font-size: 14px;
+}
+.ScenarForm input[name="locationText"], .ScenarForm .location-section i {
+  font-size: 14px;
+}
+.ScenarForm input[name="min"],
+.ScenarForm input[name="max"],
+.ScenarForm .people-count-selection,
+.ScenarForm .people-count-selection i {
+  font-size: 14px;
 }
 
 .ScenarForm ::placeholder {

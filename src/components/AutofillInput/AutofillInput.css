@@ -1,0 +1,4 @@
+.AutofillInput::selection {
+  background-color: inherit;
+  color: #ddd;
+}
