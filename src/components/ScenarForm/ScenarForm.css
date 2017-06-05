@@ -1,0 +1,38 @@
+.ScenarForm {
+  border: 1px solid #bbb;
+  padding: 10px;
+  position: relative;
+}
+
+.ScenarForm i.before-text {
+  position: absolute;
+  top: 12px;
+  left: 13px;
+  color: #bbb;
+  font-size: 24px;
+  float: left
+}
+
+.ScenarForm input,
+.ScenarForm input:focus,
+.ScenarForm input:active,
+.ScenarForm input:hover {
+  color: #333;
+  background: transparent;
+  border: 0;
+  border-style: none;
+  border-color: transparent;
+  outline: none;
+  outline-offset: 0;
+  box-shadow: none;
+  width: 300px;
+  margin-left: 30px;
+}
+
+.ScenarForm input[name="name"] {
+  font-size: 24px;
+}
+
+.ScenarForm ::placeholder {
+  color: #bbb;
+}

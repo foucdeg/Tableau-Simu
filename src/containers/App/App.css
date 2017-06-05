@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  padding-top: 20px;
+  background-color: #f3f0ea;
+}
+
+h2, h3, p {
+  color: #333;
+}
+
+a:link {
+  color: inherit;
+}
+
+i.before-text {
+  position: relative;
+  bottom: .05em;
+  margin-right: .5em;
+}
+
+.masonry {
+  column-count: 1;
+  -moz-column-count: 1;
+  column-gap: 20px;
+  -moz-column-gap: 20px;
+  width: 360px;
+  margin: 0px auto;
+}
+
+@media only screen and (min-width: 740px) {
+    .masonry {
+        column-count: 2;
+        -moz-column-count: 2;
+        width: 740px;
+    }
+}
+
+@media only screen and (min-width: 1120px) {
+    .masonry {
+        column-count: 3;
+        -moz-column-count: 3;
+        width: 1120px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .masonry {
+        column-count: 4;
+        -moz-column-count: 4;
+        width: 1500px;
+    }
+}

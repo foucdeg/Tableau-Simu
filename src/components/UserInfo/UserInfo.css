@@ -1,0 +1,18 @@
+.UserInfo {
+  padding: 10px;
+  border: 1px solid #bbb;
+}
+
+.UserInfo .my-face {
+  float: left;
+  margin-right: 10px;
+}
+
+.UserInfo .my-email {
+  font-size: 14px;
+  color: #bbb;
+}
+
+.UserInfo h2 {
+  font-size: 24px;
+}

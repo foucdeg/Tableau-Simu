@@ -1,0 +1,13 @@
+img.person-badge {
+  margin-right: 5px;
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+}
+
+img.person-badge-lg {
+  margin-right: 5px;
+  border-radius: 35px;
+  height: 70px;
+  width: 70px;
+}

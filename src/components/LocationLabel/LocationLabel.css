@@ -1,0 +1,4 @@
+.footer .footer-location {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

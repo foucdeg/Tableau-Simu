@@ -1,0 +1,205 @@
+body {
+  font-family: sans-serif;
+  padding-top: 5mm;
+}
+
+h2, h3, p {
+  color: #333;
+}
+
+a:link {
+  color: inherit;
+}
+
+.masonry {
+  column-count: 1;
+  -moz-column-count: 1;
+  column-gap: 5mm;
+  -moz-column-gap: 5mm;
+  width: 90mm;
+  margin: 0px auto;
+}
+
+@media only screen and (min-width: 195mm) {
+    .masonry {
+        column-count: 2;
+        -moz-column-count: 2;
+        width: 185mm;
+    }
+}
+
+@media only screen and (min-width: 290mm) {
+    .masonry {
+        column-count: 3;
+        -moz-column-count: 3;
+        width: 280mm;
+    }
+}
+
+@media only screen and (min-width: 385mm) {
+    .masonry {
+        column-count: 4;
+        -moz-column-count: 4;
+        width: 375mm;
+    }
+}
+
+.scenar, .me {
+  border-radius: 2mm;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 5mm;
+}
+
+.me {
+  padding: 2.5mm;
+  border: 1px solid #bbb;
+}
+
+.me .my-face {
+  float: left;
+  margin-right: 2.5mm;
+}
+
+.me .my-email {
+  font-size: 3.5mm;
+  color: #bbb;
+}
+
+.me h2 {
+  font-size: 6mm;
+}
+
+.scenar.blank {
+  border: 1px solid #bbb;
+  padding: 2.5mm;
+}
+
+.scenar.blank i {
+  color: #bbb;
+  font-size: 6mm;
+}
+
+.scenar.blank input,
+.scenar.blank input:hover,
+.scenar.blank input:focus,
+.scenar.blank input:active {
+  font-size: 6mm;
+  color: #333;
+  background: transparent;
+  border: 0;
+  border-style: none;
+  border-color: transparent;
+  outline: none;
+  outline-offset: 0;
+  box-shadow: none;
+  width: 70mm;
+}
+
+::-webkit-input-placeholder {
+  color: #bbb;
+}
+::-moz-placeholder {
+  color: #bbb;
+}
+
+.scenar-header {
+  font-size: 0px;
+}
+.scenar-header img {
+  width: 90mm;
+}
+
+.scenar-body {
+  padding: 4mm;
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  border-bottom-left-radius: 2mm;
+  border-bottom-right-radius: 2mm;
+}
+
+.scenar-body.no-picture {
+  border-radius: 2mm;
+  border: 1px solid #bbb;
+}
+
+.scenar-body h3 {
+  font-size: 9mm;
+  margin-bottom: 3mm;
+}
+
+.scenar-body p.description {
+  font-size: 3.5mm;
+  font-style: italic;
+  color: #bbb;
+  line-height: 1.3em;
+  margin-bottom: 2.5mm;
+  text-align: justify;
+}
+
+.people::after {
+  content:"";
+  display:block;
+  clear:both;
+}
+
+.mjs {
+  float: left;
+  margin-right: 2mm;
+}
+
+.players {
+  line-height: 8mm;
+}
+
+img.person-badge {
+  margin-right: 2mm;
+  border-radius: 4mm;
+  height: 8mm;
+  width: 8mm;
+}
+
+img.person-badge-lg {
+  margin-right: 2mm;
+  border-radius: 10mm;
+  height: 20mm;
+  width: 20mm;
+}
+
+.footer {
+  color: #bbb;
+  margin-top: 2mm;
+  font-size: 3.5mm;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+.footer .footer-location {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.footer .spacer {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 5mm;
+}
+
+.footer .invalid {
+  color: #ffc864;
+}
+
+.footer .valid {
+  color: #75c577;
+}
+
+i.before-text {
+  position: relative;
+  bottom: .05em;
+  margin-right: .5em;
+}
