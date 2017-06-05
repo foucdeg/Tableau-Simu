@@ -4,7 +4,9 @@
   "private": true,
   "devDependencies": {
     "react-scripts": "^0.9.3",
-    "redux-logger": "^2.6.1"
+    "redux-logger": "^2.6.1",
+    "shipit-deploy": "^2.4.0",
+    "shipit-yarn": "^0.2.0"
   },
   "dependencies": {
     "pouchdb-server": "^2.3.6",
